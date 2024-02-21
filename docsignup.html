@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Doctor SignUp</title>
+</head>
+
+<body>
+    <hr>
+    <header>
+        <center>
+            <font color="orange"><b><h1>Apollo Hospital</h1></b></font>
+            <hr>
+            <h3><font color="blue">
+            <a href="home.html">About Apollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="branches.html">Apollo Branches</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="services.html">Apollo Services</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="contact.html">Apollo Contact</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="doctors.html">Our Doctors</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="labs.html">Our Labs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#">Doctor Registration</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="docsignin.html">Doctor Signin</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="patientlogin.html">Patient Signin</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="patientsignup.html">Patient Registration</a>
+            </font>
+            </h3> 
+        </center>
+    </header>
+    <hr>
+    <form method="post" action="" name="dregistration" style="background-color: beige;">
+        <table align="center" cellpadding="10px" cellspacing="3px" bgcolor="silver">
+            <tr>
+                <td><u><b>Doctor Registration</b></u></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">First Name :</label><br>
+                    <input type="text" id="fname" name="fname" required size="50">
+                </td>
+                <td>
+                    <label for="lname">Last Name :</label><br>
+                    <input type="text" id="lname" name="lname" required size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="uname">Username :</label><br>
+                    <input type="text" id="uname" name="uname" required size="50">
+                </td>
+                <td>
+                    <label for="pass">Password :</label><br>
+                    <input type="password" id="pname" name="pname" required size="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email Id :</label><br>
+                    <input type="email" id="email" name="email" required size="50">
+                </td>
+                <td>
+                    <label for="mobile">Mobile No. :</label><br>
+                    <input type="number" id="mobile" name="mobile" required >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fname">Specialist In :</label><br>
+                    <select name="" id="specin" required >
+                        <option value="">Please Select a Specialist:</option>
+                        <option value="cardiologists">Cardiologists</option>
+                        <option value="dermatology">Dermatology</option>
+                        <option value="endocrinologist">Endocrinologist</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="gender" name="gender" value="male" required>Male
+                    <input type="radio" id="gender" name="gender" value="female" required>Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State :</label><br>
+                    <select name="state" id="state" required >
+                        <option value="">Please Select a State :</option>
+                        <option value="cardiologists" id="od">Odisha</option>
+                        <option value="dermatology" id="wb">WB</option>
+                        <option value="endocrinologist" id="ap">AP</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="city">City :</label><br>
+                    <select name="city" id="city" required >
+                        <option value="" id="">Please Select a City :</option>
+                        <option value="cardiologists" id="bls">Balasore</option>
+                        <option value="dermatology" id="hyd">Hydrabad</option>
+                        <option value="endocrinologist" id="vij">Vijaywada</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">
+                    <label>Address:</label>
+                    <br>
+                    <textarea cols="47" rows="4"></textarea>
+                </td>
+
+                <td>
+                    <label rowspan="1" for="pin">Pincode:</label>
+                    <br>
+                    <input type="number" size="50" id="pin" name="pin">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" id="photo" name="photo" >
+                    <input type="button" name="" id="" value=" Clear ">
+                    <input type="reset" value=" Submit ">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    Already Registered?<a href="docsignin.html">Click here to login</a>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+   
+    <hr>
+    <footer><center><font color="DarkTurquoise">copyright@appolohospital</font></center></footer>
+  <hr>
+</body>
+
+</html>
